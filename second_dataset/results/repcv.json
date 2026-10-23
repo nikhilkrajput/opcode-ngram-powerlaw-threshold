@@ -1,0 +1,459 @@
+{
+ "design": "RepeatedStratifiedKFold(5 folds x 5 repeats, seed 42)",
+ "classifier": "TfidfTransformer() with sklearn defaults (l2 norm, smooth idf), fitted on the training fold's selected columns, then LinearSVC(C=1.0, random_state=42), sklearn defaults otherwise; no tuning",
+ "test": "Nadeau-Bengio corrected resampled t-test (variance x (1/J + n_test/n_train)), difference = method - power-law in percentage points, Holm over the seven comparisons per metric; 95% CI is the corrected t interval of the mean difference",
+ "metric_note": "per-split accuracy / macro F1 on the test fold, averaged over splits",
+ "J": 25,
+ "n_train": 15077,
+ "n_test": 3769,
+ "powerlaw_per_split": [
+  {
+   "split": 0,
+   "k": 36328,
+   "xmin": 12.0,
+   "alpha": 2.009360679996887
+  },
+  {
+   "split": 1,
+   "k": 12229,
+   "xmin": 37.0,
+   "alpha": 2.036623441082029
+  },
+  {
+   "split": 2,
+   "k": 3847,
+   "xmin": 118.0,
+   "alpha": 2.117079011736722
+  },
+  {
+   "split": 3,
+   "k": 13687,
+   "xmin": 33.0,
+   "alpha": 2.023149410820759
+  },
+  {
+   "split": 4,
+   "k": 11577,
+   "xmin": 39.0,
+   "alpha": 2.044987277340434
+  },
+  {
+   "split": 5,
+   "k": 11239,
+   "xmin": 40.0,
+   "alpha": 2.040448187822182
+  },
+  {
+   "split": 6,
+   "k": 12628,
+   "xmin": 36.0,
+   "alpha": 2.0352022387970146
+  },
+  {
+   "split": 7,
+   "k": 11219,
+   "xmin": 40.0,
+   "alpha": 2.0407643980486307
+  },
+  {
+   "split": 8,
+   "k": 13318,
+   "xmin": 34.0,
+   "alpha": 2.0297298302179705
+  },
+  {
+   "split": 9,
+   "k": 13356,
+   "xmin": 34.0,
+   "alpha": 2.031973117812676
+  },
+  {
+   "split": 10,
+   "k": 12373,
+   "xmin": 36.0,
+   "alpha": 2.033324333866243
+  },
+  {
+   "split": 11,
+   "k": 11769,
+   "xmin": 39.0,
+   "alpha": 2.0365729671782367
+  },
+  {
+   "split": 12,
+   "k": 12400,
+   "xmin": 36.0,
+   "alpha": 2.0344093295478505
+  },
+  {
+   "split": 13,
+   "k": 13631,
+   "xmin": 33.0,
+   "alpha": 2.028169268240516
+  },
+  {
+   "split": 14,
+   "k": 12337,
+   "xmin": 37.0,
+   "alpha": 2.036846777945456
+  },
+  {
+   "split": 15,
+   "k": 11404,
+   "xmin": 40.0,
+   "alpha": 2.040089131234269
+  },
+  {
+   "split": 16,
+   "k": 36417,
+   "xmin": 12.0,
+   "alpha": 2.0080617657918847
+  },
+  {
+   "split": 17,
+   "k": 16000,
+   "xmin": 28.0,
+   "alpha": 2.021322773579702
+  },
+  {
+   "split": 18,
+   "k": 13283,
+   "xmin": 33.0,
+   "alpha": 2.030701199728825
+  },
+  {
+   "split": 19,
+   "k": 8707,
+   "xmin": 53.0,
+   "alpha": 2.0578333408965577
+  },
+  {
+   "split": 20,
+   "k": 39317,
+   "xmin": 11.0,
+   "alpha": 2.0163556523453954
+  },
+  {
+   "split": 21,
+   "k": 11502,
+   "xmin": 39.0,
+   "alpha": 2.040072620287943
+  },
+  {
+   "split": 22,
+   "k": 12319,
+   "xmin": 37.0,
+   "alpha": 2.035497674887935
+  },
+  {
+   "split": 23,
+   "k": 13567,
+   "xmin": 33.0,
+   "alpha": 2.0250347815400156
+  },
+  {
+   "split": 24,
+   "k": 10219,
+   "xmin": 45.0,
+   "alpha": 2.044694586436708
+  }
+ ],
+ "powerlaw_xmin_values": [
+  11.0,
+  12.0,
+  28.0,
+  33.0,
+  34.0,
+  36.0,
+  37.0,
+  39.0,
+  40.0,
+  45.0,
+  53.0,
+  118.0
+ ],
+ "label_use": {
+  "power-law": "no labels, no k",
+  "chi2": "labels, k from power-law",
+  "min_df-2": "no labels, hand-chosen cut-off",
+  "min_df-5": "no labels, hand-chosen cut-off",
+  "min_df-10": "no labels, hand-chosen cut-off",
+  "knee": "no labels, no k",
+  "top-5000": "no labels, fixed k",
+  "full": "no selection"
+ },
+ "summary": {
+  "power-law": {
+   "k_mean": 14986.9,
+   "k_min": 3847,
+   "k_max": 39317,
+   "seconds_mean": 13.8,
+   "acc": {
+    "mean": 70.17,
+    "sd": 1.95
+   },
+   "macro_f1": {
+    "mean": 69.38,
+    "sd": 2.0
+   }
+  },
+  "chi2": {
+   "k_mean": 14986.9,
+   "k_min": 3847,
+   "k_max": 39317,
+   "seconds_mean": 11.0,
+   "acc": {
+    "mean": 71.71,
+    "sd": 1.14
+   },
+   "macro_f1": {
+    "mean": 70.87,
+    "sd": 1.22
+   }
+  },
+  "min_df-2": {
+   "k_mean": 274648.6,
+   "k_min": 264803,
+   "k_max": 280851,
+   "seconds_mean": 15.9,
+   "acc": {
+    "mean": 75.99,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.21,
+    "sd": 0.73
+   }
+  },
+  "min_df-5": {
+   "k_mean": 79339.9,
+   "k_min": 77462,
+   "k_max": 81164,
+   "seconds_mean": 10.0,
+   "acc": {
+    "mean": 74.71,
+    "sd": 0.73
+   },
+   "macro_f1": {
+    "mean": 73.94,
+    "sd": 0.82
+   }
+  },
+  "min_df-10": {
+   "k_mean": 36810.4,
+   "k_min": 36104,
+   "k_max": 37455,
+   "seconds_mean": 7.0,
+   "acc": {
+    "mean": 73.25,
+    "sd": 0.76
+   },
+   "macro_f1": {
+    "mean": 72.48,
+    "sd": 0.85
+   }
+  },
+  "knee": {
+   "k_mean": 971852.5,
+   "k_min": 954183,
+   "k_max": 986392,
+   "seconds_mean": 29.4,
+   "acc": {
+    "mean": 76.49,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.66,
+    "sd": 0.73
+   }
+  },
+  "top-5000": {
+   "k_mean": 5000.0,
+   "k_min": 5000,
+   "k_max": 5000,
+   "seconds_mean": 11.0,
+   "acc": {
+    "mean": 65.07,
+    "sd": 0.79
+   },
+   "macro_f1": {
+    "mean": 64.2,
+    "sd": 0.85
+   }
+  },
+  "full": {
+   "k_mean": 1139171.0,
+   "k_min": 1139171,
+   "k_max": 1139171,
+   "seconds_mean": 29.2,
+   "acc": {
+    "mean": 76.46,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.63,
+    "sd": 0.74
+   }
+  }
+ },
+ "vs_powerlaw": {
+  "acc": {
+   "chi2": {
+    "mean_diff": 1.54,
+    "t": 3.207,
+    "p": 0.003771791224554499,
+    "ci95": [
+     0.549,
+     2.531
+    ],
+    "p_holm": 0.007543582449108998,
+    "significant_holm_0.05": true
+   },
+   "min_df-2": {
+    "mean_diff": 5.815,
+    "t": 5.404,
+    "p": 1.5011596991129243e-05,
+    "ci95": [
+     3.594,
+     8.035
+    ],
+    "p_holm": 7.505798495564622e-05,
+    "significant_holm_0.05": true
+   },
+   "min_df-5": {
+    "mean_diff": 4.536,
+    "t": 4.135,
+    "p": 0.00037403471733685813,
+    "ci95": [
+     2.272,
+     6.799
+    ],
+    "p_holm": 0.0011221041520105743,
+    "significant_holm_0.05": true
+   },
+   "min_df-10": {
+    "mean_diff": 3.071,
+    "t": 3.04,
+    "p": 0.005645821757796492,
+    "ci95": [
+     0.986,
+     5.157
+    ],
+    "p_holm": 0.007543582449108998,
+    "significant_holm_0.05": true
+   },
+   "knee": {
+    "mean_diff": 6.32,
+    "t": 5.878,
+    "p": 4.6025240701586245e-06,
+    "ci95": [
+     4.101,
+     8.539
+    ],
+    "p_holm": 3.2217668491110374e-05,
+    "significant_holm_0.05": true
+   },
+   "top-5000": {
+    "mean_diff": -5.109,
+    "t": -4.496,
+    "p": 0.0001496274610328995,
+    "ci95": [
+     -7.454,
+     -2.764
+    ],
+    "p_holm": 0.000598509844131598,
+    "significant_holm_0.05": true
+   },
+   "full": {
+    "mean_diff": 6.288,
+    "t": 5.871,
+    "p": 4.6829383275210035e-06,
+    "ci95": [
+     4.077,
+     8.498
+    ],
+    "p_holm": 3.2217668491110374e-05,
+    "significant_holm_0.05": true
+   }
+  },
+  "macro_f1": {
+   "chi2": {
+    "mean_diff": 1.491,
+    "t": 3.222,
+    "p": 0.0036403679610529285,
+    "ci95": [
+     0.536,
+     2.445
+    ],
+    "p_holm": 0.007280735922105857,
+    "significant_holm_0.05": true
+   },
+   "min_df-2": {
+    "mean_diff": 5.835,
+    "t": 5.355,
+    "p": 1.696917882469427e-05,
+    "ci95": [
+     3.586,
+     8.083
+    ],
+    "p_holm": 8.484589412347134e-05,
+    "significant_holm_0.05": true
+   },
+   "min_df-5": {
+    "mean_diff": 4.564,
+    "t": 4.115,
+    "p": 0.0003942461417167511,
+    "ci95": [
+     2.275,
+     6.854
+    ],
+    "p_holm": 0.0011827384251502531,
+    "significant_holm_0.05": true
+   },
+   "min_df-10": {
+    "mean_diff": 3.098,
+    "t": 3.015,
+    "p": 0.005986694514639353,
+    "ci95": [
+     0.977,
+     5.219
+    ],
+    "p_holm": 0.007280735922105857,
+    "significant_holm_0.05": true
+   },
+   "knee": {
+    "mean_diff": 6.28,
+    "t": 5.75,
+    "p": 6.326432860110213e-06,
+    "ci95": [
+     4.025,
+     8.534
+    ],
+    "p_holm": 4.4285030020771486e-05,
+    "significant_holm_0.05": true
+   },
+   "top-5000": {
+    "mean_diff": -5.177,
+    "t": -4.521,
+    "p": 0.00014054826207151742,
+    "ci95": [
+     -7.54,
+     -2.813
+    ],
+    "p_holm": 0.0005621930482860697,
+    "significant_holm_0.05": true
+   },
+   "full": {
+    "mean_diff": 6.249,
+    "t": 5.74,
+    "p": 6.479515643427402e-06,
+    "ci95": [
+     4.002,
+     8.496
+    ],
+    "p_holm": 4.4285030020771486e-05,
+    "significant_holm_0.05": true
+   }
+  }
+ }
+}

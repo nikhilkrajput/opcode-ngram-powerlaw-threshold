@@ -1,0 +1,143 @@
+fold 1 power-law: xmin=12.0 k=36,328 acc=74.51
+  fold 1 K=100: acc=21.46 macroF1=18.07 (4.2s)
+  fold 1 K=200: acc=28.73 macroF1=26.06 (4.7s)
+  fold 1 K=500: acc=43.90 macroF1=42.58 (5.5s)
+  fold 1 K=1,000: acc=53.00 macroF1=51.87 (5.8s)
+  fold 1 K=2,000: acc=59.15 macroF1=58.15 (6.4s)
+  fold 1 K=5,000: acc=65.60 macroF1=64.88 (5.8s)
+  fold 1 K=10,000: acc=69.63 macroF1=68.89 (9.2s)
+  fold 1 K=20,000: acc=72.44 macroF1=71.62 (5.4s)
+  fold 1 K=50,000: acc=75.33 macroF1=74.63 (8.0s)
+  fold 1 K=100,000: acc=75.86 macroF1=75.16 (9.7s)
+  fold 1 K=200,000: acc=76.26 macroF1=75.51 (13.1s)
+  fold 1 K=500,000: acc=76.92 macroF1=76.18 (21.8s)
+  fold 1 K=1,139,171: acc=77.21 macroF1=76.46 (29.9s)
+fold 2 power-law: xmin=37.0 k=12,229 acc=69.14
+  fold 2 K=100: acc=21.12 macroF1=17.69 (6.7s)
+  fold 2 K=200: acc=28.04 macroF1=25.18 (8.9s)
+  fold 2 K=500: acc=42.13 macroF1=40.68 (9.6s)
+  fold 2 K=1,000: acc=49.80 macroF1=48.56 (9.6s)
+  fold 2 K=2,000: acc=56.65 macroF1=55.79 (10.1s)
+  fold 2 K=5,000: acc=64.02 macroF1=63.21 (12.4s)
+  fold 2 K=10,000: acc=68.03 macroF1=67.28 (14.2s)
+  fold 2 K=20,000: acc=70.87 macroF1=70.22 (8.0s)
+  fold 2 K=50,000: acc=73.65 macroF1=73.03 (8.9s)
+  fold 2 K=100,000: acc=74.64 macroF1=74.02 (6.1s)
+  fold 2 K=200,000: acc=75.35 macroF1=74.66 (13.2s)
+  fold 2 K=500,000: acc=75.70 macroF1=75.03 (22.7s)
+  fold 2 K=1,139,171: acc=76.04 macroF1=75.29 (31.9s)
+fold 3 power-law: xmin=118.0 k=3,847 acc=64.55
+  fold 3 K=100: acc=21.65 macroF1=18.55 (6.9s)
+  fold 3 K=200: acc=29.13 macroF1=26.24 (8.1s)
+  fold 3 K=500: acc=43.19 macroF1=41.66 (4.7s)
+  fold 3 K=1,000: acc=51.74 macroF1=50.45 (7.4s)
+  fold 3 K=2,000: acc=58.93 macroF1=58.04 (10.8s)
+  fold 3 K=5,000: acc=66.97 macroF1=66.13 (12.5s)
+  fold 3 K=10,000: acc=69.94 macroF1=69.09 (14.3s)
+  fold 3 K=20,000: acc=72.09 macroF1=71.39 (7.6s)
+  fold 3 K=50,000: acc=75.33 macroF1=74.76 (9.6s)
+  fold 3 K=100,000: acc=76.20 macroF1=75.54 (12.0s)
+  fold 3 K=200,000: acc=76.68 macroF1=76.00 (15.8s)
+  fold 3 K=500,000: acc=77.24 macroF1=76.54 (24.9s)
+  fold 3 K=1,139,171: acc=77.39 macroF1=76.69 (25.0s)
+fold 4 power-law: xmin=33.0 k=13,687 acc=68.98
+  fold 4 K=100: acc=21.78 macroF1=18.73 (8.5s)
+  fold 4 K=200: acc=28.58 macroF1=25.33 (9.7s)
+  fold 4 K=500: acc=43.06 macroF1=41.53 (11.2s)
+  fold 4 K=1,000: acc=50.33 macroF1=49.14 (9.8s)
+  fold 4 K=2,000: acc=57.28 macroF1=56.10 (7.4s)
+  fold 4 K=5,000: acc=63.86 macroF1=62.78 (8.8s)
+  fold 4 K=10,000: acc=68.08 macroF1=67.08 (12.5s)
+  fold 4 K=20,000: acc=70.50 macroF1=69.38 (5.6s)
+  fold 4 K=50,000: acc=73.36 macroF1=72.43 (7.4s)
+  fold 4 K=100,000: acc=74.29 macroF1=73.32 (8.1s)
+  fold 4 K=200,000: acc=75.01 macroF1=74.06 (9.9s)
+  fold 4 K=500,000: acc=75.56 macroF1=74.55 (17.5s)
+  fold 4 K=1,139,171: acc=75.78 macroF1=74.68 (29.9s)
+fold 5 power-law: xmin=39.0 k=11,577 acc=69.54
+  fold 5 K=100: acc=21.25 macroF1=18.06 (7.2s)
+  fold 5 K=200: acc=29.19 macroF1=26.37 (9.3s)
+  fold 5 K=500: acc=42.43 macroF1=41.16 (8.8s)
+  fold 5 K=1,000: acc=50.52 macroF1=49.32 (9.1s)
+  fold 5 K=2,000: acc=57.57 macroF1=56.67 (9.6s)
+  fold 5 K=5,000: acc=64.31 macroF1=63.42 (11.5s)
+  fold 5 K=10,000: acc=69.20 macroF1=68.35 (13.2s)
+  fold 5 K=20,000: acc=71.29 macroF1=70.53 (6.0s)
+  fold 5 K=50,000: acc=73.18 macroF1=72.31 (7.8s)
+  fold 5 K=100,000: acc=74.45 macroF1=73.57 (9.1s)
+  fold 5 K=200,000: acc=74.98 macroF1=74.17 (12.8s)
+  fold 5 K=500,000: acc=75.35 macroF1=74.45 (18.5s)
+  fold 5 K=1,139,171: acc=75.72 macroF1=74.77 (28.2s)
+{
+ "folds": "StratifiedKFold(5, shuffle, seed 42)",
+ "classifier": "TfidfTransformer() with sklearn defaults (l2 norm, smooth idf), fitted on the training fold's selected columns, then LinearSVC(C=1.0, random_state=42), sklearn defaults otherwise; no tuning",
+ "selection": "top-K by in-fold corpus frequency (ties broken by column order)",
+ "metric_note": "pooled out-of-fold predictions",
+ "full_vocabulary_K": 1139171,
+ "powerlaw_per_fold": [
+  {
+   "fold": 1,
+   "k": 36328,
+   "xmin": 12.0,
+   "alpha": 2.009360679996887
+  },
+  {
+   "fold": 2,
+   "k": 12229,
+   "xmin": 37.0,
+   "alpha": 2.036623441082029
+  },
+  {
+   "fold": 3,
+   "k": 3847,
+   "xmin": 118.0,
+   "alpha": 2.117079011736722
+  },
+  {
+   "fold": 4,
+   "k": 13687,
+   "xmin": 33.0,
+   "alpha": 2.023149410820759
+  },
+  {
+   "fold": 5,
+   "k": 11577,
+   "xmin": 39.0,
+   "alpha": 2.044987277340434
+  }
+ ],
+ "powerlaw_k_mean": 15533.6,
+ "powerlaw_pooled": {
+  "acc": 69.35,
+  "macro_f1": 68.47
+ },
+ "acc_full": 76.43,
+ "acc_best": {
+  "K": 1139171,
+  "acc": 76.43
+ },
+ "acc_smallest_K_reaching_full": 1139171,
+ "acc_smallest_K_within_0.5pp_of_full": 500000,
+ "acc_powerlaw_minus_full": -7.08,
+ "macro_f1_full": 75.54,
+ "macro_f1_best": {
+  "K": 1139171,
+  "macro_f1": 75.54
+ },
+ "macro_f1_smallest_K_reaching_full": 1139171,
+ "macro_f1_smallest_K_within_0.5pp_of_full": 500000,
+ "macro_f1_powerlaw_minus_full": -7.07
+}
+{'K': 100, 'acc': 21.45, 'macro_f1': 18.2, 'fold_acc_mean': 21.45}
+{'K': 200, 'acc': 28.73, 'macro_f1': 25.81, 'fold_acc_mean': 28.73}
+{'K': 500, 'acc': 42.94, 'macro_f1': 41.51, 'fold_acc_mean': 42.94}
+{'K': 1000, 'acc': 51.08, 'macro_f1': 49.89, 'fold_acc_mean': 51.08}
+{'K': 2000, 'acc': 57.92, 'macro_f1': 56.88, 'fold_acc_mean': 57.92}
+{'K': 5000, 'acc': 64.95, 'macro_f1': 64.0, 'fold_acc_mean': 64.95}
+{'K': 10000, 'acc': 68.97, 'macro_f1': 68.1, 'fold_acc_mean': 68.97}
+{'K': 20000, 'acc': 71.44, 'macro_f1': 70.6, 'fold_acc_mean': 71.44}
+{'K': 50000, 'acc': 74.17, 'macro_f1': 73.39, 'fold_acc_mean': 74.17}
+{'K': 100000, 'acc': 75.09, 'macro_f1': 74.28, 'fold_acc_mean': 75.09}
+{'K': 200000, 'acc': 75.66, 'macro_f1': 74.83, 'fold_acc_mean': 75.66}
+{'K': 500000, 'acc': 76.15, 'macro_f1': 75.31, 'fold_acc_mean': 76.15}
+{'K': 1139171, 'acc': 76.43, 'macro_f1': 75.54, 'fold_acc_mean': 76.43}

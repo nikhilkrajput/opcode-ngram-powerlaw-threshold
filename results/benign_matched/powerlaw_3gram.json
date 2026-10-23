@@ -1,0 +1,25 @@
+{
+  "n": 3,
+  "n_samples": 200,
+  "vocabulary_size": 25587,
+  "xmin": 253.0,
+  "alpha": 1.7433160332779043,
+  "retained": 1513,
+  "retention_pct": 5.913,
+  "reduction_factor": 16.91,
+  "token_pattern": "(?u)\\b[a-z]{2,}\\b",
+  "distribution_comparisons": {
+    "exponential": {
+      "loglikelihood_ratio": 8.226568704195396,
+      "p": 1.9265259990753067e-16
+    },
+    "lognormal": {
+      "loglikelihood_ratio": -2.5935751976696,
+      "p": 0.009498376532699328
+    },
+    "truncated_power_law": {
+      "loglikelihood_ratio": -3.2301803491324064,
+      "p": 1.6820718190535544e-06
+    }
+  }
+}

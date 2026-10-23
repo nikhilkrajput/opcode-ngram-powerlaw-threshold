@@ -1,0 +1,14 @@
+# Raw and intermediate data (rebuilt by the scripts, not redistributed)
+seqs/
+*.npz
+data/
+cache/
+_scratch/
+manifest.json
+*_kept.txt
+results/bytes/byte_3gram_freqs.npy
+
+# Python
+__pycache__/
+*.pyc
+*.tmp

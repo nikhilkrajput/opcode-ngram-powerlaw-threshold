@@ -1,0 +1,39 @@
+{
+ "whole_corpus": {
+  "xmin": 47.0,
+  "k": 11963,
+  "second_ks_minimum": {
+   "xmin": 11.0,
+   "KS_D": 0.014865169440084869,
+   "alpha": 2.0056781651581614,
+   "k_retained": 48436,
+   "D_minus_global_min": 0.00031076522188366873
+  },
+  "discrete_xmin": 7.0,
+  "discrete_k": 77167
+ },
+ "repcv_powerlaw_xmin": {
+  "min": 11.0,
+  "median": 36.0,
+  "max": 118.0,
+  "splits_xmin_below_20": 3,
+  "splits_xmin_above_100": 1
+ },
+ "repcv_powerlaw_k": {
+  "min": 3847,
+  "median": 12373.0,
+  "max": 39317,
+  "max_over_min": 10.2
+ },
+ "spearman_k_vs_acc_powerlaw": {
+  "rho": 0.782,
+  "p": 3.837421220016912e-06
+ },
+ "kcurve_acc_interpolated_at_mean_powerlaw_k": {
+  "k": 15533.6,
+  "acc": 70.54,
+  "powerlaw_pooled_acc": 69.35
+ },
+ "repcv_share_of_top5000_to_full_gap_recovered_by_powerlaw": 0.448,
+ "repcv_fraction_of_full_vocab_kept_by_powerlaw_mean": 0.0132
+}

@@ -1,0 +1,15 @@
+{
+ "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+ "ram_gb": 15.7,
+ "os": "Microsoft Windows 11 Pro",
+ "os_build": "10.0.26300",
+ "python": "3.12.10",
+ "scikit-learn": "1.9.0",
+ "powerlaw": "2.0.0",
+ "lightgbm": "4.7.0",
+ "xgboost": "3.4.1",
+ "numpy": "2.5.3",
+ "scipy": "1.18.1",
+ "capstone": "5.0.7",
+ "pefile": "2024.8.26"
+}

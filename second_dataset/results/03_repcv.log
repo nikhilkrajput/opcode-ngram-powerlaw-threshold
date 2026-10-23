@@ -1,0 +1,476 @@
+split  1 power-law  k=   36,328 acc=74.51 macroF1=73.82 (7.6s)
+split  1 chi2       k=   36,328 acc=74.35 macroF1=73.60 (6.7s)
+split  1 min_df-2   k=  277,154 acc=76.71 macroF1=76.01 (16.8s)
+split  1 min_df-5   k=   79,541 acc=75.76 macroF1=75.06 (9.5s)
+split  1 min_df-10  k=   36,849 acc=74.38 macroF1=73.71 (7.5s)
+split  1 knee       k=  972,816 acc=77.21 macroF1=76.44 (33.9s)
+split  1 top-5000   k=    5,000 acc=65.60 macroF1=64.88 (12.0s)
+split  1 full       k=1,139,171 acc=77.21 macroF1=76.46 (32.3s)
+split  2 power-law  k=   12,229 acc=69.14 macroF1=68.53 (15.9s)
+split  2 chi2       k=   12,229 acc=71.32 macroF1=70.62 (11.4s)
+split  2 min_df-2   k=  274,915 acc=75.46 macroF1=74.82 (16.1s)
+split  2 min_df-5   k=   79,054 acc=74.42 macroF1=73.80 (9.8s)
+split  2 min_df-10  k=   36,758 acc=72.59 macroF1=72.02 (7.8s)
+split  2 knee       k=  974,037 acc=76.01 macroF1=75.24 (33.7s)
+split  2 top-5000   k=    5,000 acc=64.02 macroF1=63.21 (10.1s)
+split  2 full       k=1,139,171 acc=76.04 macroF1=75.29 (35.2s)
+split  3 power-law  k=    3,847 acc=64.55 macroF1=63.72 (10.3s)
+split  3 chi2       k=    3,847 acc=68.93 macroF1=67.80 (8.0s)
+split  3 min_df-2   k=  271,906 acc=76.86 macroF1=76.19 (14.7s)
+split  3 min_df-5   k=   79,303 acc=75.78 macroF1=75.14 (9.8s)
+split  3 min_df-10  k=   36,584 acc=73.52 macroF1=72.88 (7.2s)
+split  3 knee       k=  973,970 acc=77.50 macroF1=76.81 (26.2s)
+split  3 top-5000   k=    5,000 acc=66.97 macroF1=66.13 (9.7s)
+split  3 full       k=1,139,171 acc=77.39 macroF1=76.69 (27.1s)
+split  4 power-law  k=   13,687 acc=68.98 macroF1=67.91 (12.6s)
+split  4 chi2       k=   13,687 acc=70.95 macroF1=69.96 (10.6s)
+split  4 min_df-2   k=  273,064 acc=75.27 macroF1=74.25 (14.7s)
+split  4 min_df-5   k=   79,645 acc=73.55 macroF1=72.53 (9.3s)
+split  4 min_df-10  k=   37,052 acc=72.01 macroF1=71.00 (7.0s)
+split  4 knee       k=  976,384 acc=75.88 macroF1=74.79 (27.5s)
+split  4 top-5000   k=    5,000 acc=63.86 macroF1=62.78 (10.8s)
+split  4 full       k=1,139,171 acc=75.78 macroF1=74.68 (29.3s)
+split  5 power-law  k=   11,577 acc=69.54 macroF1=68.75 (12.7s)
+split  5 chi2       k=   11,577 acc=71.05 macroF1=70.05 (10.3s)
+split  5 min_df-2   k=  276,150 acc=75.40 macroF1=74.56 (15.5s)
+split  5 min_df-5   k=   79,577 acc=73.65 macroF1=72.82 (9.6s)
+split  5 min_df-10  k=   36,808 acc=72.14 macroF1=71.28 (7.1s)
+split  5 knee       k=  959,891 acc=75.75 macroF1=74.82 (29.6s)
+split  5 top-5000   k=    5,000 acc=64.31 macroF1=63.42 (12.3s)
+split  5 full       k=1,139,171 acc=75.72 macroF1=74.77 (31.7s)
+split  6 power-law  k=   11,239 acc=68.01 macroF1=67.08 (13.8s)
+split  6 chi2       k=   11,239 acc=70.16 macroF1=69.20 (11.7s)
+split  6 min_df-2   k=  268,964 acc=75.65 macroF1=74.72 (16.3s)
+split  6 min_df-5   k=   77,954 acc=73.98 macroF1=73.07 (9.9s)
+split  6 min_df-10  k=   36,624 acc=72.23 macroF1=71.38 (8.6s)
+split  6 knee       k=  971,070 acc=75.78 macroF1=74.78 (32.1s)
+split  6 top-5000   k=    5,000 acc=64.14 macroF1=63.22 (12.9s)
+split  6 full       k=1,139,171 acc=75.65 macroF1=74.66 (26.3s)
+split  7 power-law  k=   12,628 acc=69.62 macroF1=68.77 (14.4s)
+split  7 chi2       k=   12,628 acc=71.16 macroF1=70.15 (12.2s)
+split  7 min_df-2   k=  277,386 acc=75.17 macroF1=74.23 (18.1s)
+split  7 min_df-5   k=   79,266 acc=73.73 macroF1=72.93 (12.0s)
+split  7 min_df-10  k=   36,889 acc=72.25 macroF1=71.46 (5.4s)
+split  7 knee       k=  978,701 acc=75.78 macroF1=74.78 (19.9s)
+split  7 top-5000   k=    5,000 acc=64.39 macroF1=63.44 (7.2s)
+split  7 full       k=1,139,171 acc=75.78 macroF1=74.79 (20.0s)
+split  8 power-law  k=   11,219 acc=69.65 macroF1=68.65 (10.8s)
+split  8 chi2       k=   11,219 acc=71.29 macroF1=70.38 (9.6s)
+split  8 min_df-2   k=  272,177 acc=75.75 macroF1=74.83 (13.8s)
+split  8 min_df-5   k=   78,706 acc=75.06 macroF1=74.11 (8.8s)
+split  8 min_df-10  k=   36,734 acc=73.47 macroF1=72.50 (7.1s)
+split  8 knee       k=  956,582 acc=76.52 macroF1=75.57 (25.9s)
+split  8 top-5000   k=    5,000 acc=64.63 macroF1=63.77 (10.6s)
+split  8 full       k=1,139,171 acc=76.41 macroF1=75.48 (28.1s)
+split  9 power-law  k=   13,318 acc=71.48 macroF1=70.86 (12.7s)
+split  9 chi2       k=   13,318 acc=72.46 macroF1=71.72 (11.0s)
+split  9 min_df-2   k=  279,934 acc=76.76 macroF1=76.30 (15.4s)
+split  9 min_df-5   k=   80,133 acc=75.54 macroF1=75.06 (9.9s)
+split  9 min_df-10  k=   36,959 acc=74.42 macroF1=73.84 (7.9s)
+split  9 knee       k=  977,772 acc=77.08 macroF1=76.61 (29.8s)
+split  9 top-5000   k=    5,000 acc=66.49 macroF1=65.73 (11.5s)
+split  9 full       k=1,139,171 acc=77.05 macroF1=76.59 (29.4s)
+split 10 power-law  k=   13,356 acc=71.13 macroF1=70.39 (14.7s)
+split 10 chi2       k=   13,356 acc=72.65 macroF1=71.85 (10.8s)
+split 10 min_df-2   k=  277,945 acc=76.78 macroF1=76.09 (13.3s)
+split 10 min_df-5   k=   80,488 acc=75.43 macroF1=74.73 (9.8s)
+split 10 min_df-10  k=   36,917 acc=74.10 macroF1=73.39 (8.2s)
+split 10 knee       k=  973,108 acc=77.58 macroF1=76.88 (31.5s)
+split 10 top-5000   k=    5,000 acc=65.53 macroF1=64.72 (12.5s)
+split 10 full       k=1,139,171 acc=77.53 macroF1=76.86 (33.9s)
+split 11 power-law  k=   12,373 acc=70.21 macroF1=69.39 (13.7s)
+split 11 chi2       k=   12,373 acc=71.54 macroF1=70.66 (11.6s)
+split 11 min_df-2   k=  267,751 acc=75.41 macroF1=74.53 (16.4s)
+split 11 min_df-5   k=   78,578 acc=74.38 macroF1=73.51 (10.0s)
+split 11 min_df-10  k=   36,205 acc=72.81 macroF1=71.90 (8.1s)
+split 11 knee       k=  957,353 acc=75.99 macroF1=74.93 (33.5s)
+split 11 top-5000   k=    5,000 acc=65.36 macroF1=64.51 (14.7s)
+split 11 full       k=1,139,171 acc=76.07 macroF1=75.03 (26.0s)
+split 12 power-law  k=   11,769 acc=68.88 macroF1=67.98 (15.4s)
+split 12 chi2       k=   11,769 acc=70.44 macroF1=69.62 (14.4s)
+split 12 min_df-2   k=  280,851 acc=75.17 macroF1=74.23 (9.4s)
+split 12 min_df-5   k=   80,082 acc=73.55 macroF1=72.66 (6.3s)
+split 12 min_df-10  k=   37,330 acc=72.43 macroF1=71.60 (5.0s)
+split 12 knee       k=  986,392 acc=75.62 macroF1=74.71 (19.1s)
+split 12 top-5000   k=    5,000 acc=64.26 macroF1=63.45 (6.2s)
+split 12 full       k=1,139,171 acc=75.64 macroF1=74.75 (17.4s)
+split 13 power-law  k=   12,400 acc=70.71 macroF1=69.76 (11.0s)
+split 13 chi2       k=   12,400 acc=72.25 macroF1=71.25 (9.7s)
+split 13 min_df-2   k=  273,678 acc=76.01 macroF1=75.05 (13.0s)
+split 13 min_df-5   k=   78,556 acc=74.40 macroF1=73.45 (8.0s)
+split 13 min_df-10  k=   36,497 acc=73.23 macroF1=72.25 (6.4s)
+split 13 knee       k=  962,235 acc=76.73 macroF1=75.78 (26.7s)
+split 13 top-5000   k=    5,000 acc=64.63 macroF1=63.52 (9.9s)
+split 13 full       k=1,139,171 acc=76.63 macroF1=75.63 (26.8s)
+split 14 power-law  k=   13,631 acc=70.26 macroF1=69.22 (12.9s)
+split 14 chi2       k=   13,631 acc=71.48 macroF1=70.50 (11.6s)
+split 14 min_df-2   k=  271,836 acc=76.01 macroF1=74.94 (10.9s)
+split 14 min_df-5   k=   79,338 acc=74.77 macroF1=73.75 (9.8s)
+split 14 min_df-10  k=   36,814 acc=73.18 macroF1=72.20 (7.5s)
+split 14 knee       k=  978,304 acc=76.31 macroF1=75.16 (29.4s)
+split 14 top-5000   k=    5,000 acc=65.32 macroF1=64.20 (11.6s)
+split 14 full       k=1,139,171 acc=76.33 macroF1=75.19 (30.7s)
+split 15 power-law  k=   12,337 acc=70.76 macroF1=70.29 (24.5s)
+split 15 chi2       k=   12,337 acc=72.19 macroF1=71.77 (13.2s)
+split 15 min_df-2   k=  277,701 acc=76.36 macroF1=75.97 (12.2s)
+split 15 min_df-5   k=   79,816 acc=75.14 macroF1=74.74 (14.2s)
+split 15 min_df-10  k=   37,051 acc=73.71 macroF1=73.27 (11.0s)
+split 15 knee       k=  975,895 acc=76.68 macroF1=76.27 (42.9s)
+split 15 top-5000   k=    5,000 acc=65.64 macroF1=65.24 (22.3s)
+split 15 full       k=1,139,171 acc=76.70 macroF1=76.27 (35.6s)
+split 16 power-law  k=   11,404 acc=69.73 macroF1=68.81 (14.6s)
+split 16 chi2       k=   11,404 acc=71.62 macroF1=70.75 (12.8s)
+split 16 min_df-2   k=  280,008 acc=76.47 macroF1=75.70 (21.2s)
+split 16 min_df-5   k=   80,239 acc=75.62 macroF1=74.70 (11.8s)
+split 16 min_df-10  k=   37,092 acc=73.58 macroF1=72.73 (5.0s)
+split 16 knee       k=  979,901 acc=76.39 macroF1=75.50 (13.9s)
+split 16 top-5000   k=    5,000 acc=65.36 macroF1=64.41 (5.3s)
+split 16 full       k=1,139,171 acc=76.45 macroF1=75.57 (24.4s)
+split 17 power-law  k=   36,417 acc=73.73 macroF1=73.04 (4.1s)
+split 17 chi2       k=   36,417 acc=73.89 macroF1=73.21 (2.9s)
+split 17 min_df-2   k=  275,096 acc=76.15 macroF1=75.52 (7.6s)
+split 17 min_df-5   k=   79,659 acc=74.61 macroF1=73.90 (4.3s)
+split 17 min_df-10  k=   37,072 acc=73.44 macroF1=72.76 (3.7s)
+split 17 knee       k=  967,087 acc=76.84 macroF1=76.16 (15.7s)
+split 17 top-5000   k=    5,000 acc=64.74 macroF1=64.09 (5.5s)
+split 17 full       k=1,139,171 acc=76.70 macroF1=76.01 (15.1s)
+split 18 power-law  k=   16,000 acc=71.05 macroF1=70.09 (3.5s)
+split 18 chi2       k=   16,000 acc=72.01 macroF1=71.10 (2.1s)
+split 18 min_df-2   k=  275,036 acc=75.33 macroF1=74.34 (9.3s)
+split 18 min_df-5   k=   78,741 acc=74.37 macroF1=73.40 (5.6s)
+split 18 min_df-10  k=   36,823 acc=73.07 macroF1=72.04 (4.1s)
+split 18 knee       k=  975,592 acc=76.09 macroF1=75.04 (19.2s)
+split 18 top-5000   k=    5,000 acc=64.90 macroF1=64.00 (7.1s)
+split 18 full       k=1,139,171 acc=76.04 macroF1=74.97 (19.6s)
+split 19 power-law  k=   13,283 acc=71.00 macroF1=70.27 (24.3s)
+split 19 chi2       k=   13,283 acc=72.14 macroF1=71.36 (16.4s)
+split 19 min_df-2   k=  264,803 acc=76.39 macroF1=75.71 (26.5s)
+split 19 min_df-5   k=   77,462 acc=75.03 macroF1=74.35 (19.7s)
+split 19 min_df-10  k=   36,104 acc=74.00 macroF1=73.33 (8.9s)
+split 19 knee       k=  954,183 acc=76.76 macroF1=76.01 (38.1s)
+split 19 top-5000   k=    5,000 acc=65.64 macroF1=64.74 (11.4s)
+split 19 full       k=1,139,171 acc=76.97 macroF1=76.22 (31.5s)
+split 20 power-law  k=    8,707 acc=68.53 macroF1=67.94 (16.8s)
+split 20 chi2       k=    8,707 acc=71.35 macroF1=70.64 (12.5s)
+split 20 min_df-2   k=  276,220 acc=76.31 macroF1=75.74 (21.1s)
+split 20 min_df-5   k=   80,516 acc=75.09 macroF1=74.58 (12.7s)
+split 20 min_df-10  k=   37,017 acc=73.95 macroF1=73.44 (11.2s)
+split 20 knee       k=  984,202 acc=76.86 macroF1=76.25 (45.9s)
+split 20 top-5000   k=    5,000 acc=65.38 macroF1=64.73 (13.4s)
+split 20 full       k=1,139,171 acc=76.78 macroF1=76.21 (40.7s)
+split 21 power-law  k=   39,317 acc=72.86 macroF1=72.13 (10.4s)
+split 21 chi2       k=   39,317 acc=73.16 macroF1=72.38 (7.7s)
+split 21 min_df-2   k=  277,040 acc=74.99 macroF1=74.20 (18.0s)
+split 21 min_df-5   k=   78,755 acc=73.63 macroF1=72.98 (11.4s)
+split 21 min_df-10  k=   36,577 acc=72.23 macroF1=71.48 (8.9s)
+split 21 knee       k=  956,538 acc=75.49 macroF1=74.61 (32.3s)
+split 21 top-5000   k=    5,000 acc=64.56 macroF1=63.56 (9.4s)
+split 21 full       k=1,139,171 acc=75.36 macroF1=74.48 (32.8s)
+split 22 power-law  k=   11,502 acc=70.55 macroF1=69.91 (15.2s)
+split 22 chi2       k=   11,502 acc=71.88 macroF1=71.13 (12.6s)
+split 22 min_df-2   k=  265,909 acc=76.73 macroF1=76.22 (19.6s)
+split 22 min_df-5   k=   77,879 acc=75.43 macroF1=74.95 (9.6s)
+split 22 min_df-10  k=   36,301 acc=73.81 macroF1=73.30 (3.5s)
+split 22 knee       k=  971,757 acc=77.16 macroF1=76.60 (28.8s)
+split 22 top-5000   k=    5,000 acc=66.25 macroF1=65.37 (13.7s)
+split 22 full       k=1,139,171 acc=77.10 macroF1=76.56 (37.5s)
+split 23 power-law  k=   12,319 acc=69.49 macroF1=68.83 (22.3s)
+split 23 chi2       k=   12,319 acc=70.89 macroF1=70.12 (18.0s)
+split 23 min_df-2   k=  279,055 acc=75.72 macroF1=75.04 (27.9s)
+split 23 min_df-5   k=   79,688 acc=74.45 macroF1=73.72 (12.0s)
+split 23 min_df-10  k=   37,088 acc=72.62 macroF1=71.92 (5.4s)
+split 23 knee       k=  977,751 acc=76.47 macroF1=75.70 (48.5s)
+split 23 top-5000   k=    5,000 acc=64.63 macroF1=63.82 (19.7s)
+split 23 full       k=1,139,171 acc=76.44 macroF1=75.66 (43.9s)
+split 24 power-law  k=   13,567 acc=71.11 macroF1=70.39 (15.8s)
+split 24 chi2       k=   13,567 acc=72.38 macroF1=71.58 (14.7s)
+split 24 min_df-2   k=  273,862 acc=76.60 macroF1=75.87 (17.8s)
+split 24 min_df-5   k=   79,358 acc=75.17 macroF1=74.45 (8.2s)
+split 24 min_df-10  k=   36,659 acc=74.08 macroF1=73.37 (5.0s)
+split 24 knee       k=  977,451 acc=76.86 macroF1=76.07 (21.6s)
+split 24 top-5000   k=    5,000 acc=65.38 macroF1=64.47 (6.8s)
+split 24 full       k=1,139,171 acc=76.84 macroF1=76.03 (28.8s)
+split 25 power-law  k=   10,219 acc=68.85 macroF1=67.94 (14.1s)
+split 25 chi2       k=   10,219 acc=71.32 macroF1=70.35 (12.8s)
+split 25 min_df-2   k=  277,775 acc=76.25 macroF1=75.28 (12.9s)
+split 25 min_df-5   k=   81,164 acc=75.22 macroF1=74.21 (8.9s)
+split 25 min_df-10  k=   37,455 acc=73.89 macroF1=72.88 (7.7s)
+split 25 knee       k=  977,340 acc=77.00 macroF1=75.94 (29.3s)
+split 25 top-5000   k=    5,000 acc=64.63 macroF1=63.67 (7.6s)
+split 25 full       k=1,139,171 acc=76.92 macroF1=75.84 (26.5s)
+{
+ "summary": {
+  "power-law": {
+   "k_mean": 14986.9,
+   "k_min": 3847,
+   "k_max": 39317,
+   "seconds_mean": 13.8,
+   "acc": {
+    "mean": 70.17,
+    "sd": 1.95
+   },
+   "macro_f1": {
+    "mean": 69.38,
+    "sd": 2.0
+   }
+  },
+  "chi2": {
+   "k_mean": 14986.9,
+   "k_min": 3847,
+   "k_max": 39317,
+   "seconds_mean": 11.0,
+   "acc": {
+    "mean": 71.71,
+    "sd": 1.14
+   },
+   "macro_f1": {
+    "mean": 70.87,
+    "sd": 1.22
+   }
+  },
+  "min_df-2": {
+   "k_mean": 274648.6,
+   "k_min": 264803,
+   "k_max": 280851,
+   "seconds_mean": 15.9,
+   "acc": {
+    "mean": 75.99,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.21,
+    "sd": 0.73
+   }
+  },
+  "min_df-5": {
+   "k_mean": 79339.9,
+   "k_min": 77462,
+   "k_max": 81164,
+   "seconds_mean": 10.0,
+   "acc": {
+    "mean": 74.71,
+    "sd": 0.73
+   },
+   "macro_f1": {
+    "mean": 73.94,
+    "sd": 0.82
+   }
+  },
+  "min_df-10": {
+   "k_mean": 36810.4,
+   "k_min": 36104,
+   "k_max": 37455,
+   "seconds_mean": 7.0,
+   "acc": {
+    "mean": 73.25,
+    "sd": 0.76
+   },
+   "macro_f1": {
+    "mean": 72.48,
+    "sd": 0.85
+   }
+  },
+  "knee": {
+   "k_mean": 971852.5,
+   "k_min": 954183,
+   "k_max": 986392,
+   "seconds_mean": 29.4,
+   "acc": {
+    "mean": 76.49,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.66,
+    "sd": 0.73
+   }
+  },
+  "top-5000": {
+   "k_mean": 5000.0,
+   "k_min": 5000,
+   "k_max": 5000,
+   "seconds_mean": 11.0,
+   "acc": {
+    "mean": 65.07,
+    "sd": 0.79
+   },
+   "macro_f1": {
+    "mean": 64.2,
+    "sd": 0.85
+   }
+  },
+  "full": {
+   "k_mean": 1139171.0,
+   "k_min": 1139171,
+   "k_max": 1139171,
+   "seconds_mean": 29.2,
+   "acc": {
+    "mean": 76.46,
+    "sd": 0.6
+   },
+   "macro_f1": {
+    "mean": 75.63,
+    "sd": 0.74
+   }
+  }
+ },
+ "vs_powerlaw": {
+  "acc": {
+   "chi2": {
+    "mean_diff": 1.54,
+    "t": 3.207,
+    "p": 0.003771791224554499,
+    "ci95": [
+     0.549,
+     2.531
+    ],
+    "p_holm": 0.007543582449108998,
+    "significant_holm_0.05": true
+   },
+   "min_df-2": {
+    "mean_diff": 5.815,
+    "t": 5.404,
+    "p": 1.5011596991129243e-05,
+    "ci95": [
+     3.594,
+     8.035
+    ],
+    "p_holm": 7.505798495564622e-05,
+    "significant_holm_0.05": true
+   },
+   "min_df-5": {
+    "mean_diff": 4.536,
+    "t": 4.135,
+    "p": 0.00037403471733685813,
+    "ci95": [
+     2.272,
+     6.799
+    ],
+    "p_holm": 0.0011221041520105743,
+    "significant_holm_0.05": true
+   },
+   "min_df-10": {
+    "mean_diff": 3.071,
+    "t": 3.04,
+    "p": 0.005645821757796492,
+    "ci95": [
+     0.986,
+     5.157
+    ],
+    "p_holm": 0.007543582449108998,
+    "significant_holm_0.05": true
+   },
+   "knee": {
+    "mean_diff": 6.32,
+    "t": 5.878,
+    "p": 4.6025240701586245e-06,
+    "ci95": [
+     4.101,
+     8.539
+    ],
+    "p_holm": 3.2217668491110374e-05,
+    "significant_holm_0.05": true
+   },
+   "top-5000": {
+    "mean_diff": -5.109,
+    "t": -4.496,
+    "p": 0.0001496274610328995,
+    "ci95": [
+     -7.454,
+     -2.764
+    ],
+    "p_holm": 0.000598509844131598,
+    "significant_holm_0.05": true
+   },
+   "full": {
+    "mean_diff": 6.288,
+    "t": 5.871,
+    "p": 4.6829383275210035e-06,
+    "ci95": [
+     4.077,
+     8.498
+    ],
+    "p_holm": 3.2217668491110374e-05,
+    "significant_holm_0.05": true
+   }
+  },
+  "macro_f1": {
+   "chi2": {
+    "mean_diff": 1.491,
+    "t": 3.222,
+    "p": 0.0036403679610529285,
+    "ci95": [
+     0.536,
+     2.445
+    ],
+    "p_holm": 0.007280735922105857,
+    "significant_holm_0.05": true
+   },
+   "min_df-2": {
+    "mean_diff": 5.835,
+    "t": 5.355,
+    "p": 1.696917882469427e-05,
+    "ci95": [
+     3.586,
+     8.083
+    ],
+    "p_holm": 8.484589412347134e-05,
+    "significant_holm_0.05": true
+   },
+   "min_df-5": {
+    "mean_diff": 4.564,
+    "t": 4.115,
+    "p": 0.0003942461417167511,
+    "ci95": [
+     2.275,
+     6.854
+    ],
+    "p_holm": 0.0011827384251502531,
+    "significant_holm_0.05": true
+   },
+   "min_df-10": {
+    "mean_diff": 3.098,
+    "t": 3.015,
+    "p": 0.005986694514639353,
+    "ci95": [
+     0.977,
+     5.219
+    ],
+    "p_holm": 0.007280735922105857,
+    "significant_holm_0.05": true
+   },
+   "knee": {
+    "mean_diff": 6.28,
+    "t": 5.75,
+    "p": 6.326432860110213e-06,
+    "ci95": [
+     4.025,
+     8.534
+    ],
+    "p_holm": 4.4285030020771486e-05,
+    "significant_holm_0.05": true
+   },
+   "top-5000": {
+    "mean_diff": -5.177,
+    "t": -4.521,
+    "p": 0.00014054826207151742,
+    "ci95": [
+     -7.54,
+     -2.813
+    ],
+    "p_holm": 0.0005621930482860697,
+    "significant_holm_0.05": true
+   },
+   "full": {
+    "mean_diff": 6.249,
+    "t": 5.74,
+    "p": 6.479515643427402e-06,
+    "ci95": [
+     4.002,
+     8.496
+    ],
+    "p_holm": 4.4285030020771486e-05,
+    "significant_holm_0.05": true
+   }
+  }
+ }
+}

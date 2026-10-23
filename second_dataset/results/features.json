@@ -1,0 +1,73 @@
+{
+ "n_docs": 18846,
+ "n_features": 1139171,
+ "n_classes": 20,
+ "class_names": [
+  "alt.atheism",
+  "comp.graphics",
+  "comp.os.ms-windows.misc",
+  "comp.sys.ibm.pc.hardware",
+  "comp.sys.mac.hardware",
+  "comp.windows.x",
+  "misc.forsale",
+  "rec.autos",
+  "rec.motorcycles",
+  "rec.sport.baseball",
+  "rec.sport.hockey",
+  "sci.crypt",
+  "sci.electronics",
+  "sci.med",
+  "sci.space",
+  "soc.religion.christian",
+  "talk.politics.guns",
+  "talk.politics.mideast",
+  "talk.politics.misc",
+  "talk.religion.misc"
+ ],
+ "n_unigrams": 86876,
+ "n_bigrams": 1052295,
+ "nnz": 4488972,
+ "total_tokens_counted": 6464347,
+ "empty_docs": 537,
+ "class_counts": [
+  799,
+  973,
+  985,
+  982,
+  963,
+  988,
+  975,
+  990,
+  996,
+  994,
+  999,
+  991,
+  984,
+  990,
+  987,
+  997,
+  910,
+  940,
+  775,
+  628
+ ],
+ "vectorizer": {
+  "lowercase": true,
+  "token_pattern": "(?u)\\b[a-z]{2,}\\b",
+  "ngram_range": [
+   1,
+   2
+  ],
+  "stop_words": null,
+  "min_df": 1
+ },
+ "corpus": "fetch_20newsgroups(subset='all', remove=('headers','footers','quotes'))",
+ "n_unique_frequency_values": 1203,
+ "features_freq_eq_1": 773453,
+ "max_freq": 173592,
+ "k_at_min_df": {
+  "2": 335553,
+  "5": 98285,
+  "10": 45505
+ }
+}

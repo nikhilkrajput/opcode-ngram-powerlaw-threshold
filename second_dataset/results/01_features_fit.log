@@ -1,0 +1,66 @@
+{
+ "n_docs": 18846,
+ "n_features": 1139171,
+ "n_classes": 20,
+ "n_unigrams": 86876,
+ "n_bigrams": 1052295,
+ "nnz": 4488972,
+ "total_tokens_counted": 6464347,
+ "empty_docs": 537,
+ "class_counts": [
+  799,
+  973,
+  985,
+  982,
+  963,
+  988,
+  975,
+  990,
+  996,
+  994,
+  999,
+  991,
+  984,
+  990,
+  987,
+  997,
+  910,
+  940,
+  775,
+  628
+ ],
+ "vectorizer": {
+  "lowercase": true,
+  "token_pattern": "(?u)\\b[a-z]{2,}\\b",
+  "ngram_range": [
+   1,
+   2
+  ],
+  "stop_words": null,
+  "min_df": 1
+ },
+ "corpus": "fetch_20newsgroups(subset='all', remove=('headers','footers','quotes'))",
+ "n_unique_frequency_values": 1203,
+ "features_freq_eq_1": 773453,
+ "max_freq": 173592,
+ "k_at_min_df": {
+  "2": 335553,
+  "5": 98285,
+  "10": 45505
+ }
+}
+continuous {'form': "continuous (powerlaw.Fit default; the article's rule)", 'xmin': 47.0, 'alpha': 2.0334908061818253, 'sigma': 0.009449015603975517, 'KS_D': 0.0145544042182012, 'n_tail': 11963, 'k_retained': 11963, 'n_candidate_xmin': 1201, 'ks_profile_local_minima': [{'xmin': 47.0, 'KS_D': 0.0145544042182012, 'alpha': 2.0334908061818253, 'k_retained': 11963, 'D_minus_global_min': 0.0}, {'xmin': 11.0, 'KS_D': 0.014865169440084869, 'alpha': 2.0056781651581614, 'k_retained': 48436, 'D_minus_global_min': 0.00031076522188366873}, {'xmin': 51.0, 'KS_D': 0.015121263945169716, 'alpha': 2.034978649928372, 'k_retained': 11020, 'D_minus_global_min': 0.000566859726968516}, {'xmin': 41.0, 'KS_D': 0.016421226422071944, 'alpha': 2.022434181866129, 'k_retained': 13596, 'D_minus_global_min': 0.0018668222038707438}, {'xmin': 34.0, 'KS_D': 0.016783851853595544, 'alpha': 2.015067975743418, 'k_retained': 16289, 'D_minus_global_min': 0.0022294476353943438}, {'xmin': 31.0, 'KS_D': 0.016886395687001232, 'alpha': 2.009134808484272, 'k_retained': 17756, 'D_minus_global_min': 0.002331991468800032}], 'seconds': 75.1}
+exponential {'R': 10.826475082411978, 'p': 2.5789272173933832e-27, 'favours': 'power_law', 'significant_at_0.05': True}
+lognormal {'R': -2.1019437531143996, 'p': 0.035558203228621965, 'favours': 'lognormal', 'significant_at_0.05': True}
+truncated_power_law {'R': -1.572227973519009, 'p': 0.013986186054976257, 'favours': 'truncated_power_law', 'significant_at_0.05': True}
+discrete {'form': 'discrete=True', 'xmin': 7.0, 'alpha': 1.9660415665338238, 'sigma': 0.0034776030268686823, 'KS_D': 0.005579740734866778, 'n_tail': 77167, 'k_retained': 77167, 'n_candidate_xmin': 1201, 'ks_profile_local_minima': [{'xmin': 7.0, 'KS_D': 0.005579740734866778, 'alpha': 1.9660415665338238, 'k_retained': 77167, 'D_minus_global_min': 0.0}, {'xmin': 3.0, 'KS_D': 0.010804302880093708, 'alpha': 2.0138383943329297, 'k_retained': 206567, 'D_minus_global_min': 0.00522456214522693}, {'xmin': 47.0, 'KS_D': 0.013322442528437617, 'alpha': 2.0221920240502644, 'k_retained': 11963, 'D_minus_global_min': 0.007742701793570839}, {'xmin': 51.0, 'KS_D': 0.014105588418212245, 'alpha': 2.0245315869144163, 'k_retained': 11020, 'D_minus_global_min': 0.008525847683345467}, {'xmin': 56.0, 'KS_D': 0.014820780727015537, 'alpha': 2.0282557607912963, 'k_retained': 10039, 'D_minus_global_min': 0.009241039992148758}, {'xmin': 23.0, 'KS_D': 0.014864978103562798, 'alpha': 1.9799846252260038, 'k_retained': 23648, 'D_minus_global_min': 0.00928523736869602}], 'seconds': 59.1}
+{
+ "knee_cutoff": 1.0,
+ "knee_k": 1139171,
+ "k_at_min_df": {
+  "2": 335553,
+  "5": 98285,
+  "10": 45505
+ },
+ "full_vocabulary": 1139171
+}

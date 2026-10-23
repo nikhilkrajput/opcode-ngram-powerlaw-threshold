@@ -1,0 +1,26 @@
+{
+  "feature": "byte 3-gram",
+  "n_files": 10868,
+  "bytes_per_file_cap": 50000,
+  "total_bytes_read": 529470454,
+  "vocabulary_size": 16748976,
+  "xmin": 98.0,
+  "alpha": 1.9772847015150523,
+  "retained": 355543,
+  "retention_pct": 2.123,
+  "reduction_factor": 47.11,
+  "distribution_comparisons": {
+    "exponential": {
+      "loglikelihood_ratio": 66.45856358335168,
+      "p": 0.0
+    },
+    "lognormal": {
+      "loglikelihood_ratio": 0.8895677613081011,
+      "p": 0.3736980233568975
+    },
+    "truncated_power_law": {
+      "loglikelihood_ratio": -1.5593251242473845,
+      "p": 0.0
+    }
+  }
+}

@@ -1,0 +1,58 @@
+25 .bytes blocks, 51.7 GB to decompress
+  block 1/25  258 files  13M bytes  0.7 min
+  block 2/25  707 files  34M bytes  1.7 min
+  block 3/25  1,152 files  56M bytes  2.6 min
+  block 4/25  1,583 files  77M bytes  3.6 min
+  block 5/25  2,031 files  99M bytes  4.5 min
+  block 6/25  2,508 files  122M bytes  5.3 min
+  block 7/25  2,955 files  144M bytes  6.2 min
+  block 8/25  3,426 files  167M bytes  7.2 min
+  block 9/25  3,912 files  191M bytes  8.2 min
+  block 10/25  4,353 files  213M bytes  9.1 min
+  block 11/25  4,806 files  235M bytes  10.2 min
+  block 12/25  5,249 files  256M bytes  11.6 min
+  block 13/25  5,688 files  278M bytes  12.9 min
+  block 14/25  6,137 files  299M bytes  13.9 min
+  block 15/25  6,593 files  322M bytes  15.2 min
+  block 16/25  7,061 files  344M bytes  16.3 min
+  block 17/25  7,538 files  368M bytes  17.3 min
+  block 18/25  8,000 files  390M bytes  18.6 min
+  block 19/25  8,460 files  413M bytes  19.5 min
+  block 20/25  8,907 files  435M bytes  20.7 min
+  block 21/25  9,354 files  456M bytes  21.8 min
+  block 22/25  9,829 files  480M bytes  22.9 min
+  block 23/25  10,260 files  500M bytes  23.8 min
+  block 24/25  10,802 files  527M bytes  25.0 min
+  block 25/25  10,868 files  529M bytes  25.1 min
+
+read 529,470,454 bytes from 10,868 files in 25.1 min
+
+  byte 2-gram vocabulary: 65,536 of 65,536 possible
+    CSN fit: xmin = 5984, alpha = 2.2214
+    retained 12,502 / 65,536 (19.08%, 5.2x)
+<python>\site-packages\powerlaw\distributions.py:183: UserWarning: discrete=False but data exclusively contains integer values. Consider using discrete=True.
+  warnings.warn('discrete=False but data exclusively contains integer values. Consider using discrete=True.')
+<python>\site-packages\powerlaw\distributions.py:808: UserWarning: Fitted parameters are very close to the edge of parameter ranges for distribution exponential; consider changing these ranges.
+  warnings.warn(f'Fitted parameters are very close to the edge of parameter ranges for distribution {self.name}; consider changing these ranges.')
+    vs exponential          R = +8.389  p = 0.0000
+    vs lognormal            R = -0.582  p = 0.5607
+<python>\site-packages\powerlaw\distributions.py:808: UserWarning: Fitted parameters are very close to the edge of parameter ranges for distribution truncated_power_law; consider changing these ranges.
+  warnings.warn(f'Fitted parameters are very close to the edge of parameter ranges for distribution {self.name}; consider changing these ranges.')
+    vs truncated_power_law  R = -0.358  p = 0.3084
+
+  byte 3-gram vocabulary: 16,748,976 of 16,777,216 possible
+    CSN fit: xmin = 98, alpha = 1.9773
+    retained 355,543 / 16,748,976 (2.12%, 47.1x)
+<python>\site-packages\powerlaw\distributions.py:183: UserWarning: discrete=False but data exclusively contains integer values. Consider using discrete=True.
+  warnings.warn('discrete=False but data exclusively contains integer values. Consider using discrete=True.')
+<python>\site-packages\powerlaw\distributions.py:808: UserWarning: Fitted parameters are very close to the edge of parameter ranges for distribution exponential; consider changing these ranges.
+  warnings.warn(f'Fitted parameters are very close to the edge of parameter ranges for distribution {self.name}; consider changing these ranges.')
+    vs exponential          R = +66.459  p = 0.0000
+<python>\site-packages\powerlaw\distributions.py:776: UserWarning: No valid fits found for distribution lognormal.
+  warnings.warn(f"No valid fits found for distribution {self.name}.")
+    vs lognormal            R = +0.890  p = 0.3737
+<python>\site-packages\powerlaw\distributions.py:808: UserWarning: Fitted parameters are very close to the edge of parameter ranges for distribution truncated_power_law; consider changing these ranges.
+  warnings.warn(f'Fitted parameters are very close to the edge of parameter ranges for distribution {self.name}; consider changing these ranges.')
+    vs truncated_power_law  R = -1.559  p = 0.0000
+
+Written to <repo>\results\bytes

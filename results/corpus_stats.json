@@ -1,0 +1,169 @@
+{
+  "malware": {
+    "labelled_samples": 10868,
+    "samples_with_instructions": 10818,
+    "excluded_samples": 50,
+    "excluded_pct_of_corpus": 0.46,
+    "per_family": {
+      "Ramnit": {
+        "total": 1541,
+        "excluded": 8
+      },
+      "Lollipop": {
+        "total": 2478,
+        "excluded": 1
+      },
+      "Kelihos_ver3": {
+        "total": 2942,
+        "excluded": 4
+      },
+      "Vundo": {
+        "total": 475,
+        "excluded": 22
+      },
+      "Simda": {
+        "total": 42,
+        "excluded": 0
+      },
+      "Tracur": {
+        "total": 751,
+        "excluded": 0
+      },
+      "Kelihos_ver1": {
+        "total": 398,
+        "excluded": 6
+      },
+      "Obfuscator.ACY": {
+        "total": 1228,
+        "excluded": 9
+      },
+      "Gatak": {
+        "total": 1013,
+        "excluded": 0
+      }
+    },
+    "instructions": 154638604,
+    "distinct_tokens": 796,
+    "unrecognised_distinct": 196,
+    "unrecognised_tokens": 24190,
+    "unrecognised_pct": 0.0156,
+    "unrecognised_top": [
+      [
+        "cases",
+        11018
+      ],
+      [
+        "icebp",
+        8125
+      ],
+      [
+        "riid",
+        865
+      ],
+      [
+        "rclsid",
+        845
+      ],
+      [
+        "bytes",
+        508
+      ],
+      [
+        "ht",
+        362
+      ],
+      [
+        "hnt",
+        329
+      ],
+      [
+        "s",
+        259
+      ],
+      [
+        "name",
+        257
+      ],
+      [
+        "is",
+        134
+      ],
+      [
+        "cmpeqsd",
+        126
+      ],
+      [
+        "cmpltpd",
+        82
+      ],
+      [
+        "cmpnlepd",
+        80
+      ],
+      [
+        "bit",
+        70
+      ],
+      [
+        "psz",
+        65
+      ],
+      [
+        "hwnd",
+        45
+      ],
+      [
+        "sz",
+        42
+      ],
+      [
+        "x",
+        38
+      ],
+      [
+        "clsid",
+        35
+      ],
+      [
+        "audio",
+        30
+      ],
+      [
+        "hhk",
+        29
+      ],
+      [
+        "cmpneqpd",
+        27
+      ],
+      [
+        "rsts",
+        24
+      ],
+      [
+        "h",
+        23
+      ],
+      [
+        "iid",
+        23
+      ]
+    ]
+  },
+  "benign_matched": {
+    "files": 200,
+    "tokens": 7277443,
+    "distinct_mnemonics": 289,
+    "median_per_file": 18352.0,
+    "mean_per_file": 36387.2,
+    "min_per_file": 504,
+    "max_per_file": 345034,
+    "nop_pct": 2.01
+  },
+  "benign_nop_dropped": {
+    "tokens": 7126139,
+    "distinct_mnemonics": 270,
+    "3gram_xmin": 61.0,
+    "3gram_retention_pct": 14.271
+  }
+}
