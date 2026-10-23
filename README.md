@@ -99,7 +99,7 @@ cd ../second_dataset/code && sh run_all.sh    # Section 7.4, Table 9
 shipped `second_dataset/results/*.ckpt.json` files are the per-fit
 checkpoints of the article's run, so with them in place the K curve and the
 repeated cross-validation are read back rather than refitted; delete them to
-recompute everything (about 1.5 h on one core). `04_summary.py` reads
+recompute everything. `04_summary.py` reads
 `repcv.ckpt.json`, so keep a copy if you only want to rerun the summary.
 
 The full pipeline from the raw data (BIG 2015 paths are placeholders):
@@ -114,8 +114,10 @@ python 03_classify.py --results-dir ../results/malware --labels /path/to/trainLa
 python 03_classify.py --results-dir ../results/malware --labels /path/to/trainLabels.csv --orders 4 --skip LinearSVM
 ```
 
-and then the scripts listed in `REPRODUCE.md`, each of which takes
-`--manifest ../results/malware/manifest.json --labels /path/to/trainLabels.csv`.
+and then the scripts listed in `REPRODUCE.md`. Each script documents its
+arguments in its docstring and in `--help`; most take `--manifest
+../results/malware/manifest.json`, `--labels /path/to/trainLabels.csv` and
+`--out-dir ../results/malware`.
 
 ## Licence
 

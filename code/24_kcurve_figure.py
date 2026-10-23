@@ -2,7 +2,7 @@
 Step 24 -- Fig. 2 of the article (Section 6.3): LightGBM accuracy and
 macro F1 against the number of
 3-grams kept (top-K by in-fold frequency), with the power-law threshold, knee
-detection, top-5,000 and the unreduced matrix marked. Every value is read
+detection and the unreduced matrix marked. Every value is read
 from results/; nothing is typed in.
 
 Usage

@@ -51,10 +51,15 @@ directory; the others run from the files shipped here.
   tests) and Table 10 (over four values of rho) are computed by
   `code/25_holm_adjustments.py` from the shipped p-values. Those of Tables 7
   and 9 are computed by `23_kcurve_repcv.py` and the text-corpus scripts.
-- `04_make_figures.py` also writes two supplementary benign plots that it
-  labels "Fig. 2" and "Fig. 3"; they are not the article's figures.
+- When given `--benign-dir`, `04_make_figures.py` also writes two
+  supplementary benign plots that it labels "Fig. 2" and "Fig. 3"; they
+  are not the article's figures.
 - Absolute output paths printed in the logs have been replaced by `<repo>`
-  and `<python>`; no number in any log was changed.
+  and `<python>`, and a few labels that referred to an earlier manuscript
+  numbering were updated in `n4_classify.log`, `unlabelled_repeats.log`,
+  `kcurve_3gram.json` and the text-corpus fit outputs. No number was
+  changed. Running `04_make_figures.py` or `24_kcurve_figure.py` rewrites
+  the figure PDFs with a new creation date only.
 - `malware/table3.log` is an earlier run of `05_baseline_comparison.py`
   that recorded accuracy and weighted F1 only; its accuracies and McNemar
   p-values equal those of `selector_full.log`, but its selection times were
